@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Text Me One", sans-serif;
+}
+.container {
+  width: max-content;
+  margin: 0 auto;
+  box-shadow: 5px 10px 10px #cbcbcb;
+  background-color: #efefef;
+  padding: 50px;
+}
+button,
+select {
+  background-color: #3c3c3c;
+  color: whitesmoke;
+  border: none !important;
+  outline: none !important;
+  padding: 10px 30px;
+  font-family: "Text Me One", sans-serif;
+  border-radius: 5px;
+  font-size: 14px;
+}
+body {
+  font: normal 16px comic sans ms;
+  text-align: center;
+}
+
+#tic-tac-toe {
+  border-spacing: 0px;
+  border-collapse: separate;
+  margin: 30px auto;
+}
+
+#tic-tac-toe td {
+  border: 2px solid #000;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  font: bold 60px comic sans ms;
+}
+
+#tic-tac-toe tr:first-child td {
+  border-top: none;
+}
+
+#tic-tac-toe tr:last-child td {
+  border-bottom: none;
+}
+
+#tic-tac-toe tr td:first-child {
+  border-left: none;
+}
+
+#tic-tac-toe tr td:last-child {
+  border-right: none;
+}
+
+#tic-tac-toe td.X {
+  color: #ed676b;
+}
+
+#tic-tac-toe td.O {
+  color: #23916b;
+}
+
+#scoreboard .score {
+  font-size: 30px;
+}
+#scoreboard {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto !important;
+}
+#scoreboard .score#player1 {
+  color: #ed676b;
+}
+
+#scoreboard .score#player2 {
+  color: #23916b;
+}
